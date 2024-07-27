@@ -1,0 +1,4 @@
+NAME    SIZE  ALLOC   FREE  CKPOINT  EXPANDSZ   FRAG    CAP  DEDUP    HEALTH  ALTROOT
+dedup   112M  41.3M  70.7M        -         -    25%    36%  19.98x    ONLINE  -
+otus    480M  5.08M   475M        -         -     0%     1%  1.00x    ONLINE  -
+tank   2.00G  1.18G   839M        -         -     3%    59%  1.00x    ONLINE  -

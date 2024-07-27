@@ -1,0 +1,7 @@
+NAME  PROPERTY     VALUE           SOURCE
+otus  type         filesystem      -
+otus  available    350M            -
+otus  readonly     off             default
+otus  recordsize   128K            local
+otus  compression  zle             local
+otus  checksum     sha256          local

@@ -1,0 +1,81 @@
+  pool: dedup
+ state: ONLINE
+config:
+
+	NAME                        STATE     READ WRITE CKSUM
+	dedup                       ONLINE       0     0     0
+	  /home/vagrant/dedup_pool  ONLINE       0     0     0
+
+errors: No known data errors
+
+ dedup: DDT entries 315, size 429B on disk, 338B in core
+
+bucket              allocated                       referenced          
+______   ______________________________   ______________________________
+refcnt   blocks   LSIZE   PSIZE   DSIZE   blocks   LSIZE   PSIZE   DSIZE
+------   ------   -----   -----   -----   ------   -----   -----   -----
+    16      315   39.3M   39.3M   39.3M    6.15K    784M    784M    784M
+ Total      315   39.3M   39.3M   39.3M    6.15K    784M    784M    784M
+
+
+  pool: otus
+ state: ONLINE
+status: Some supported and requested features are not enabled on the pool.
+	The pool can still be used, but some features are unavailable.
+action: Enable all features using 'zpool upgrade'. Once this is done,
+	the pool may no longer be accessible by software that does not support
+	the features. See zpool-features(7) for details.
+config:
+
+	NAME                                 STATE     READ WRITE CKSUM
+	otus                                 ONLINE       0     0     0
+	  mirror-0                           ONLINE       0     0     0
+	    /home/vagrant/zpoolexport/filea  ONLINE       0     0     0
+	    /home/vagrant/zpoolexport/fileb  ONLINE       0     0     0
+
+errors: No known data errors
+
+ dedup: no DDT entries
+
+  pool: tank
+ state: ONLINE
+config:
+
+	NAME                   STATE     READ WRITE CKSUM
+	tank                   ONLINE       0     0     0
+	  draid3:11d:29c:1s-0  ONLINE       0     0     0
+	    sdb                ONLINE       0     0     0
+	    sdc                ONLINE       0     0     0
+	    sdd                ONLINE       0     0     0
+	    sde                ONLINE       0     0     0
+	    sdf                ONLINE       0     0     0
+	    sdg                ONLINE       0     0     0
+	    sdh                ONLINE       0     0     0
+	    sdi                ONLINE       0     0     0
+	    sdj                ONLINE       0     0     0
+	    sdk                ONLINE       0     0     0
+	    sdl                ONLINE       0     0     0
+	    sdm                ONLINE       0     0     0
+	    sdn                ONLINE       0     0     0
+	    sdo                ONLINE       0     0     0
+	    sdp                ONLINE       0     0     0
+	    sdq                ONLINE       0     0     0
+	    sdr                ONLINE       0     0     0
+	    sds                ONLINE       0     0     0
+	    sdt                ONLINE       0     0     0
+	    sdu                ONLINE       0     0     0
+	    sdv                ONLINE       0     0     0
+	    sdw                ONLINE       0     0     0
+	    sdx                ONLINE       0     0     0
+	    sdy                ONLINE       0     0     0
+	    sdz                ONLINE       0     0     0
+	    sdaa               ONLINE       0     0     0
+	    sdab               ONLINE       0     0     0
+	    sdac               ONLINE       0     0     0
+	    sdad               ONLINE       0     0     0
+	spares
+	  draid3-0-0           AVAIL   
+
+errors: No known data errors
+
+ dedup: no DDT entries

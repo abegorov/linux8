@@ -1,0 +1,23 @@
+total 785M
+drwxr-xr-x.  2 root root  22 Jul 27 17:54 .
+dr-xr-xr-x. 22 root root 287 Jul 27 17:54 ..
+-rw-r--r--.  1 root root 40M Jul 27 17:54 10.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 11.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 12.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 13.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 14.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 15.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 16.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 17.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 18.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 19.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 1.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 20.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 2.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 3.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 4.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 5.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 6.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 7.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 8.log
+-rw-r--r--.  1 root root 40M Jul 27 17:54 9.log
